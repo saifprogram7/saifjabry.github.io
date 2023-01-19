@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #484848;
+}
+.navbar{
+    height: 110px;
+    width: 100%;
+    background-color: #181A1A;
+    display: flex;
+}
+.logo{
+    height: 110px;
+    width: 330px;
+}
+.navlink{
+    height: 110px;
+    width: 1000px;
+    margin-left: 550px;
+}
+.navlink ul{
+    list-style: none;
+    font-family: Berlin Sans system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.navlink ul li{
+    display: inline-block;
+    padding: 0 1rem;
+    padding-top: 15px;
+    color: white;
+}
+.navlink ul li a{
+    text-decoration: none;
+    color: white;
+}
+.aboutus{
+    background-color: #2D2C2C;
+    height: 890px;
+    width: 100%;
+    display: flex;
+    margin-top: -29px;
+}
+.aboutus img{
+    float: right;
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 865px;
+    width: 785px;
+
+}
+.aboutinfo{
+    height: 850px;
+    width: 50%;
+}
+.aboutinfo h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+}
+.border{
+    height: 0px;
+    width: 300px;
+    border: #1EDBE5 3px solid;
+    margin-left: 28%;
+}
+.aboutinfo p{
+    padding-left: 15px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.aboutinfo a{
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 10px;
+    margin-top: 12px;
+    margin-left: 28%;
+    color: white;
+    border: 2px solid #1EDBE5;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.aboutinfo a:hover{
+    background-color: #1EDBE5;
+    color: black;
+}
+.latestblog{
+    height: 1050px;
+    width: 100%;
+    background-color: #484848;
+}
+.latestblog h1{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+.line{
+    height: 0px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: #1EDBE5 3px solid;
+    margin-left: 41%;
+}
+.container{
+    height: 900px;
+    width: 100%;
+    display: flex;
+}
+.blogone{
+    height: 840px;
+    width: 35%;
+    border-right: 2px solid #1EDBE5;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.blogone img{
+    margin-top: 65px;
+    margin-left: 5px;
+    width: 95.5%;
+    height: 300px;
+}
+.blogone h3{
+    text-align: center;
+    color: white;
+}
+.blogone p{
+    font-size: 19px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.blogtwo{
+    height: 840px;
+    width: 35%;
+    border-right: 2px solid #1EDBE5;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.blogtwo img{
+    margin-top: 65px;
+    margin-left: 5px;
+    width: 96%;
+    height: 300px;
+}
+.blogtwo h3{
+    text-align: center;
+    color: white;
+}
+.blogtwo p{
+    font-size: 19px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.blogthree{
+    height: 840px;
+    width: 35%;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: right;
+}
+.blogthree img{
+    margin-top: 65px;
+    margin-left: 5px;
+    width: 96%;
+    height: 300px;
+}
+.blogthree h3{
+    text-align: center;
+    color: white;
+}
+.blogthree p{
+    font-size: 19px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.latestblog a{
+    text-decoration: none;
+    margin-left: 41%;
+    padding: 10px 10px;
+    color: white;
+    border: 2px solid #1EDBE5;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.latestblog a:hover{
+    color: black;
+    background-color: #1EDBE5;
+}
+.contact{
+    height: 800px;
+    width: 100%;
+    background-color: #2D2C2C;
+}
+.contact h1{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+.contactline{
+    height: 0px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: #1EDBE5 3px solid;
+    margin-left: 41%;
+}
+.contact h2{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.subscribe-section{
+    height: 525px;
+    width: 96.5%;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.subscribe-form-container{
+    height: 50px;
+    width: 570px;
+    border: 2px solid #1EDBE5;
+    background: transparent;
+    margin-left: 5px;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 1px 10px;
+    align-items: center;
+    margin-left: 29%;
+}
+.subscribe-form-container input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 10px 90px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: 35px;
+}
+.subscribe-form-container ::placeholder{
+    color: white;
+    text-align: center;
+}
+.subscribe-form-email{
+    height: 50px;
+    width: 570px;
+    border: 2px solid #1EDBE5;
+    background: transparent;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 2px 10px;
+    align-items: center;
+    margin-left: 29%;
+    margin-top: 15px;
+}
+.subscribe-form-email input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 10px 90px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 35px;
+    text-align: center;
+}
+.subscribe-form-email ::placeholder{
+    color: white;
+    text-align: center;
+}
+.subscribe-form-phone{
+    height: 50px;
+    width: 570px;
+    border: 2px solid #1EDBE5;
+    background: transparent;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 2px 10px;
+    align-items: center;
+    margin-left: 29%;
+    margin-top: 15px;
+}
+.subscribe-form-phone input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 10px 90px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: 35px;
+}
+.subscribe-form-phone ::placeholder{
+    color: white;
+    text-align: center;
+}
+.subscribe-form-message{
+    height: 275px;
+    width: 570px;
+    border: 2px solid #1EDBE5;
+    background: transparent;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 2px 10px;
+    align-items: center;
+    margin-left: 29%;
+    margin-top: 15px;
+}
+.search-bar textarea{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    height: 150px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 97.5%;
+    height: 250px;
+}
+.search-bar ::placeholder{
+    color: white;
+    text-align: center;
+}
+.subscribe{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #1EDBE5;
+    transition: .3s;
+    border-radius: 10px;
+    padding: 15px 100px;
+    margin-top: 25px;
+    margin-left: 40%;
+}
+.subscribe:hover{
+    background-color: #1EDBE5;
+    color: black;
+}
+.footer{
+    height: 110px;
+    width: 100%;
+    background-color: #181A1A;
+    display: flex;
+}
+.companyname{
+    border-right: 2px solid #1EDBE5;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.footerlink{
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.footerlink ul{
+    list-style: none;
+    font-size: 20px;
+    padding-right: 25px;
+}
+.footerlink ul li{
+    display: inline-block;
+    padding: 0 0.5rem;
+    padding-top: 15px;
+    color: white;
+}
+.footerlink a{
+    text-decoration: none;
+    color: white;
+}
+.contactinfo{
+    border-left: 2px solid #1EDBE5;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
